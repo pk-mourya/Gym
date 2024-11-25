@@ -1,0 +1,667 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);*/
+    /*background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);*/
+    background-color: black;
+}
+.main{
+    height: 70px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 40px;
+    border: 3px solid yellow;
+}
+ h1{
+    font-size: 40px;
+    color: rgb(17, 5, 243);
+    margin-left: 40px;    
+}
+.item{
+    margin-top: -48px;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 900px;
+   text-decoration: none;
+   list-style: none;
+
+   gap: 5rem;
+   color: white;
+}
+a{
+    color: white;
+}
+button{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+button:hover{
+    height: 35px;
+    width: 105px;
+    background-color: #801357;
+}
+.mid{
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+}
+.midphoto{
+    margin-top:20px;
+    margin-left: 65%;
+    height: 550px;
+    width: 30%;
+    background-color: black;
+    background-size:cover;
+    background-image: url(gym1.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.midText{
+    margin-bottom: 50%;
+    background-color: aqua;
+    height: 550px;
+    width:50% ;
+}
+.heading1{
+    margin-top: -35%;
+    font-size: 60px;
+    color: rgb(12, 138, 241);
+}
+.heading2{
+    font-size: 30px;
+    color: bisque;
+    margin-left: 45px;
+}
+.heading3{
+    font-size: 20px;
+    color: bisque;
+    font-weight: 200;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.btn:hover{
+height: 55px;
+width: 205px;
+background-color: #801357;
+}
+.program{
+    height: 700px;
+    width:100%;
+    background-color:black;
+
+
+}
+.heading4{
+    color:white;
+    margin-left: 40%;
+}
+span{
+
+    color:green;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    color: gray;
+}
+.program1{
+    background-image: url();
+    margin-top: 30px;
+    height:500px ;
+    width: 300px;
+    background-color: blue;
+    margin-left: 20px;
+    background-image: url(dance.avif);
+    background-size: cover;
+
+}
+.program1:hover{
+    height: 505px;
+    width: 305px;
+   
+    background-size: cover;
+}
+
+.program2{
+    background-image: url(HavyWorkOut.jpg);
+    margin-bottom: 50%;
+    margin-top: -37%;
+    height:500px ;
+    width: 300px;
+    background-color:red;
+    margin-left: 27%;
+    display: flex;
+    background-size: cover;
+
+}
+.program2:hover{
+    height: 505px;
+    width: 305px;
+  
+    
+
+}
+.program3{
+    margin-bottom: 50%;
+    margin-top: -87%;
+    height:500px ;
+    width: 300px;
+    background-color:pink;
+    margin-left: 52%;
+    display: flex;
+    background-image: url(Cardio.webp);
+    background-size: cover;
+
+}
+.program3:hover{
+    height: 505px;
+    width: 305px;
+ 
+
+}
+.program4{
+    margin-bottom: 50%;
+    margin-top: -87%;
+    height:500px ;
+    width: 300px;
+    background-color:yellow;
+    margin-left: 77%;
+    display: flex;
+    background-image: url(boxing.jpeg);
+    background-size: cover;
+
+}
+.program4:hover{
+    height: 505px;
+    width: 305px;
+  
+
+}
+.features{
+    
+    margin-top: -50%;
+    font-size: 25px;
+    font-weight: 200;
+    color: green;
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 16rem;
+    margin-left: 120px;
+    
+}
+.plans{
+    height: 700px;
+    width: 100%;
+
+}
+.heading5{
+    color: white;
+    margin-left: 45%;
+
+}
+.plan1{
+    height:450px ;
+    width: 300px;
+    background-color: rgb(31, 30, 30);
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.plan1:hover{
+    height: 480px;
+    width: 320px;
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    
+}
+.plan2{
+    height: 450px;
+    width: 300px;
+    background-color:rgb(31, 30, 30);;
+    margin-left: 500px;
+    margin-top: -29.5%;
+}
+.plan2:hover{
+    height: 480px;
+    width: 320px;
+    background-color: black;
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    
+}
+.plan3{
+    height: 450px;
+    width: 300px;
+    background-color:rgb(31, 30, 30);;
+    margin-left: 70%;
+    margin-top: -37%;
+}
+.plan3:hover{
+    height: 480px;
+    width: 320px;
+    background-color: black;
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+#pakage{
+    margin-left: 45%;
+    margin-top: 30px;
+   
+    color: yellow;
+}
+
+#pakage2{
+    margin-left: 45%;
+    margin-top: 30px;
+    
+
+    color: yellow;
+}
+#pakage3{
+    margin-left: 45%;
+    margin-top: 30px;
+    
+ 
+    color: yellow;
+}
+.heading6{
+    font-size: 25px;
+    color: green;
+    margin-left: 80px;
+   margin-top: -10px;
+   font-weight: 70;
+}
+.heading7{
+    font-size: 35px;
+    color: green;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+h3{
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 10px;
+    color: white;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    margin-left: 24%;
+    margin-top: 30%;
+    font-size: 20px;
+}
+.btn2:hover{
+    height: 45px;
+    width: 155px;
+    background-color: #801357;
+}
+.heading8{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 27%;
+}
+.heading9{
+    color: white;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.heading10{
+    color: green;
+    font-size: 30px;
+    margin-left: 35px;
+}
+.heading11{
+    color: green;
+font-size: 30px;
+
+}
+.personal{
+    color: white;
+    margin-left: 80px;
+}
+.blog{
+    height: 500px;
+    width: 100%;
+    
+}
+
+
+.heading12{
+    color: white;
+    margin-left: 40%;
+}
+.firstblog{
+    background-image: url(bodybuider1.jpg);
+    background-size:cover;
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+    margin-left:40px;
+    margin-top: 50px;
+}
+.firstblog:hover{
+    height: 430px;
+    width: 330px;
+}
+.speach1{
+    height: 200px;
+    width: 600px;
+    margin-left: 50%;
+    margin-top:-25%;
+}
+.heading13{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.heading14{
+    color: rgb(12, 138, 241);;
+font-size: 20px;
+font-weight: 100;
+}
+.btn3{
+    height: 40px;
+    width: 120px;
+    background-color: green;
+    color: white;
+font-size: 20px;
+margin-top: 20px;
+margin-left: 120px;
+}
+.btn3:hover{
+    height: 45px;
+    width: 125px;
+    background-color: orangered;
+}
+/*.Secondblog{
+    height: 500px;
+    width: 100%;
+  
+ /*  justify-content: center;*/
+    /*align-items: center;*/
+    /*display: flex;
+    
+   
+}*/
+/*.blog2{
+    background-image: url(5.jpeg);
+    background-size: cover;
+    height: 400px;
+    width:300px ;
+    background-color: black;
+    margin-left:70%;
+margin-top: 10px;
+    
+    
+}
+.speach2{
+    height: 200px;
+    width: 600px;
+    background-color: aqua;
+    margin-left: -140%;
+    margin-top: -20px;
+}*/
+
+
+
+.Secondblog{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+
+}
+.speach2{
+    height: 350px;
+    width: 650px;
+ 
+
+    margin-left: 50px;
+    margin-top: 120px;
+
+}
+.photo{
+    height: 400px;
+    width: 300px;
+margin-top: 60px;
+margin-left: 180px;
+background-image: url(6.jpg);
+background-size: cover;
+
+}
+.photo:hover{
+    height: 430px;
+    width: 330px;
+
+}
+.heading16{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.heading17{
+    color: rgb(12, 138, 241);;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+.blog3{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+}
+.photo2{
+    height: 400px;
+    width: 300px;
+
+background-image: url(5.jpeg);
+background-size: cover;
+margin-top: 45px;
+margin-left: 50px;
+
+}
+.photo2:hover{
+    height: 430px;
+    width: 330px;
+}
+.speach3{
+    height: 300px;
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 7%;
+ 
+}
+.heading18{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 30px;
+}
+.heading19{
+    color: rgb(12, 138, 241);;
+    font-size: 20px;
+    font-weight: 100;
+
+
+}
+
+.contact{
+    height: 700px;
+    width: 100%;
+
+
+}
+.heading21{
+    margin-left: 43%;
+    margin-top: 5px;
+
+}
+.heading22{
+    margin-left: 46%;
+    margin-top: 10px;
+    color: white;
+
+}
+.contactimg{
+    height: 500px;
+    width: 700px;
+ 
+    margin-left: 45%;
+    margin-top: -285px;
+    background-image: url(contact-removebg-preview.png);
+    background-size: cover;
+}
+/*.contactheading{
+    height: 500px;
+    width: 600px;
+ 
+    margin-top: -41%;
+}*/
+.heading23{
+    margin-top: 150px;
+    margin-left: 60px;
+    font-size: 70px;
+    color: greenyellow;
+}
+.heading24{
+margin-top: 40px;
+    font-size: 50px;
+    color: green;
+    margin-left: 60px;
+
+}
+.contectSection{
+    height: 500px;
+    width: 100%;
+    
+}
+.heading25{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-variant: normal;
+    margin-left: 45%;
+padding-top: 70px;
+}
+.contectContainer{
+
+    height: 280px;
+
+    width: 400px;
+
+    background-color: black;
+
+    margin-top: 60px;
+
+    margin-left: 35%;
+
+    border: 3px solid rgb(29, 194, 29);
+
+}
+.input1{
+    height: 50px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.input2{
+    height: 50px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.btn4{
+    height: 50px;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+
+}
+.btn4:hover{
+    height: 52px;
+    width: 92%;
+    background-color: orange;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:black;
+}
+.heading26{
+    margin-left: 100px;
+    color: white;
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 30px;
+}
+.About{
+    height: 200px;
+    width: 500px;
+
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+    
+}
+
+.heading27{
+    font-size: 15px;
+    font-weight: 100;
+}
+.plan{
+    color: white;
+    margin-left: 45%;
+    margin-top: -14%;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    column-gap: 10px;
+    gap: 20px;
+    
+}
+.mainPart{
+    font-size: 30px;
+
+}
+.Second{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+    gap: 10px;
+}
